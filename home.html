@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME</title>
+    <link rel="stylesheet" href="home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+    body {
+      font-family: "Poppins", sans-serif;
+      font-size: 14px;
+    }
+  </style>
+  <body>
+    <!-- 1st page -->
+    <section class="herobg">
+      <header>
+        <div class="navbar">
+          <div class="logo">
+            <img src="Group 3 1.svg" />
+          </div>
+          <ul class="links">
+            <li><a href="home.html">Home</a></li>
+            <li>
+              <a href="products.html">Products</a>
+            </li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="services.html">Services</a></li>
+          </ul>
+          <div class="togglebtn">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+        <!-- dropdown -->
+        <div class="dropdown">
+          <li><a href="home.html">Home</a></li>
+          <li>
+            <a href="products.html">Products</a>
+          </li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="services.html">Services</a></li>
+        </div>
+      </header>
+      <script>
+        const togglebtn = document.querySelector(".togglebtn");
+        const togglebtnicon = document.querySelector(".togglebtn i");
+        const dropdown = document.querySelector(".dropdown ");
+
+        togglebtn.onclick = function () {
+          dropdown.classList.toggle("open");
+        };
+      </script>
+
+      <!-- content -->
+      <div class="maincontent">
+        <div class="content">
+          <h1>
+            We are a “Data Driven Digital<br />
+            Transformation Partner for Enterprises”
+          </h1>
+        </div>
+        <div class="content1">
+          <p class="par">
+            Accelerate business outcomes by enabling clients with digital
+            solutions<br />
+            across marketing, commerce, analytics, customer, service
+            applications<br />
+            leading towards improved speed of delivery, customer satisfaction,
+            and
+            <br />penetration into new markets.
+          </p>
+        </div>
+
+        <!-- button -->
+        <div class="btnn">
+          <div class="btn">
+            <p>Talk To Us</p>
+          </div>
+          <div class="bt">
+            <p>Learn More</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cards -->
+    <div class="cards">
+      <!-- cards1 -->
+      <div class="card">
+        <!-- one -->
+        <div class="c1">
+          <div>
+            <img src="./resources/image-removebg-preview (47) 1l1.png" />
+          </div>
+          <div>
+            <p class="heading">ISO Certified</p>
+            <p class="para">
+              we comply ISO<br />
+              Standards.
+            </p>
+          </div>
+        </div>
+        <!-- two -->
+        <div class="c1">
+          <div>
+            <img src="./resources/image-removebg-preview (47) 1l2.png" />
+          </div>
+          <div>
+            <p class="heading">
+              Quality Management System <br />
+              Certified
+            </p>
+            <p class="para">HYM International Certifications Pvt. Ltd.</p>
+          </div>
+        </div>
+
+        <!-- three -->
+        <div class="c1">
+          <div>
+            <img src="./resources/image-removebg-preview (47) 1l3.png" />
+          </div>
+          <div>
+            <p class="heading">
+              Information Security<br />
+              Management System Certified
+            </p>
+            <p class="para">HYM International Certifications Pvt. Ltd.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2nd page -->
+    <div class="content3">
+      <h4>OUR TECHNOLOGY PARTNERS</h4>
+      <h2>
+        We Have been loved by most of the <br />
+        <span style="color: #576ce9">top notch</span> firms
+      </h2>
+    </div>
+    <!-- logo -->
+    <div class="company">
+      <div class="com">
+        <img src="./resources/Rectangle 45co1.png" />
+      </div>
+      <div class="com">
+        <img src="./resources/Rectangle 50co2.png" />
+      </div>
+      <div class="com">
+        <img src="./resources/Rectangle 51co3.png" />
+      </div>
+      <div class="com">
+        <img src="./resources/Rectangle 52co4.png" />
+      </div>
+      <div class="com">
+        <img src="./resources/Rectangle 53co5.png" />
+      </div>
+    </div>
+
+    <!-- 3rd page -->
+    <div class="content2">
+      <div class="co1">
+        <img src="./resources/Rectangle 30re.png" />
+      </div>
+      <div class="co2">
+        <h4>ABOUT US</h4>
+        <h2>
+          At <span style="color: #576ce9">KODO</span> We Turn Your Ideas<br />
+          Into Life.
+        </h2>
+        <p class="parah">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit
+          eleifend <br />
+          fermentum tincidunt neque. Euismod eget tristique nibh pretium
+          placerat vel.<br />
+          Nulla integer vitae
+        </p>
+        <div class="button">
+          <div class="but">
+            <p>Learn More</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4th page -->
+    <div class="cardz">
+      <div class="car">
+        <img src="./resources/Group.png" />
+        <p class="p1">120+</p>
+        <p class="p2">Successful Projects</p>
+      </div>
+
+      <div class="car">
+        <img src="./resources/surface1.png" />
+        <p class="p1">105+</p>
+        <p class="p2">Professional Experts</p>
+      </div>
+
+      <div class="car">
+        <img src="./resources/customer (4) 1.png" />
+        <p class="p1">120+</p>
+        <p class="p2">Happy Customers</p>
+      </div>
+
+      <div class="car">
+        <img src="./resources/handshake (1) 1.png" />
+        <p class="p1">40+</p>
+        <p class="p2">Repeating Clients</p>
+      </div>
+    </div>
+
+    <!-- 5th page -->
+    <div class="content5">
+      <h4>SUPPORTED TECHNOLOGIES</h4>
+      <h2>
+        We Strongly Believe That Latest
+        <span style="color: #576ce9">Trends & Technologies</span> <br />
+        Will Make Web A Better Place
+      </h2>
+    </div>
+
+    <!-- logo -->
+    <div class="comp">
+      <div class="cm">
+        <img src="./resources/Rectangle 45l6.png" />
+      </div>
+      <div class="cm">
+        <img src="./resources/Rectangle 50l7.png" />
+      </div>
+      <div class="cm">
+        <img src="./resources/Rectangle 51l8.png" />
+      </div>
+      <div class="cm">
+        <img src="./resources/Rectangle 52l9.png" />
+      </div>
+      <div class="cm">
+        <img src="./resources/Rectangle 53l10.png" />
+      </div>
+    </div>
+
+    <!-- 6th page -->
+    <div class="content6">
+      <h4>HOW WE WORK</h4>
+      <h2>
+        Automation Is Like Magic, Here Is<br />
+        <span style="color: #576ce9">How We Process</span>
+      </h2>
+    </div>
+
+    <!-- image -->
+    <div class="img">
+      <img src="./resources/Rectangle 306.png" />
+      <div class="center">
+        <p>
+          We are ‘functional + product’ consultants & technology experts with
+          vast experience in serving the diverse ends of tech-domain spectrum.
+        </p>
+        <div class="buttonn">
+          <div class="buttonn1">
+            <div class="b1">
+              <img src="./resources/Vector (1).png" />
+            </div>
+            <div class="b2">
+              <p>Play Video</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- image 1 -->
+    <div class="img1">
+      <div class="center1">
+        <p>
+          We are ‘functional + product’ consultants & technology experts with
+          vast experience in serving the diverse ends of tech-domain spectrum.
+        </p>
+        <div class="btn01">
+          <div class="buttonn01">
+            <div class="b01">
+              <img src="./resources/Vector (1).png" />
+            </div>
+            <div class="b02">
+              <p>Play Video</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 7th page -->
+    <div class="text">
+      <div class="t1">
+        <div class="content7">
+          <h4>OUR SERVICES</h4>
+          <h2>
+            We Deliver
+            <span style="color: #576ce9">Best Services</span> <br />
+            For Your Business
+          </h2>
+          <p>
+            Our unique differentiator is in marrying tech expertise with domain
+            intimacy, and ensuring that the stated business objectives of
+            technology investments are met.
+          </p>
+
+          <div class="button7">
+            <div class="btn7">
+              <p class="par">Learn More</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- cardss -->
+      <div class="t2">
+        <div class="carddd">
+          <div class="cardd">
+            <img src="./resources/Rectangle 37s.png" />
+            <p class="p01">Internet Of Things</p>
+            <p class="p02">
+              We enable our clients to stay relevant with the<br />
+              changing times by being at the cutting edge of <br />
+              technology.
+            </p>
+            <p class="p03">Learn More</p>
+          </div>
+
+          <div class="cardd">
+            <img src="./resources/Rectangle 37s1.png" />
+            <p class="p01">Product Engineering</p>
+            <p class="p02">
+              Our product engineering services include <br />
+              intensive Data-led research, analysis, design<br />
+              and technology depth.
+            </p>
+            <p class="p03">Learn More</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 8th page -->
+    <div class="content5">
+      <h4>CAREERS</h4>
+      <h2>
+        Become A KODO Partner To Solve<br />
+        <span style="color: #576ce9">Real World</span>
+        Problems
+      </h2>
+    </div>
+
+    <!-- img -->
+    <div class="rect">
+      <img src="./resources/Group 114s8.png" />
+    </div>
+
+    <!-- 9th page -->
+    <div class="content5">
+      <h4>TESTIMONIALS</h4>
+      <h2>
+        See What <span style="color: #576ce9">Our Customers</span> Say <br />
+        About Us
+      </h2>
+    </div>
+
+    <!-- testimonials -->
+    <div class="testi">
+      <!-- ------------- -->
+      <div class="cd1">
+        <p class="pa1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate
+          vulputate nascetur rhoncus fermentum lectus velit nam quis. Semper
+          malesuada semper enim, diam sagittis viverra.
+        </p>
+
+        <div class="tes">
+          <div class="t1">
+            <img src="./images/Ellipse 1t1.png" />
+          </div>
+          <div class="head">
+            <div class="h1">
+              <p class="h01">Annette Black</p>
+            </div>
+            <div class="h2">
+              <p class="h02">CEO, Snippernet</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ------------- -->
+      <div class="cd1">
+        <p class="pa1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate
+          vulputate nascetur rhoncus fermentum lectus velit nam quis. Semper
+          malesuada semper enim, diam sagittis viverra. Et consectetur nec amet
+          egestas. Porta ultrices eget adipiscing pellentesque sit.
+        </p>
+        <div class="tes">
+          <div class="t1">
+            <img src="./images/Ellipse 1t2.png" />
+          </div>
+          <div class="head">
+            <div class="h1">
+              <p class="h01">Courtney Henry</p>
+            </div>
+            <div class="h2">
+              <p class="h02">Managing Director, Accenture</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ------------- -->
+      <div class="cd1">
+        <p class="pa1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate
+          vulputate nascetur rhoncus fermentum lectus velit nam quis. Semper
+          malesuada semper enim, diam sagittis viverra.
+        </p>
+
+        <div class="tes">
+          <div class="t1">
+            <img src="./images/Ellipse 1t3.png" />
+          </div>
+          <div class="head">
+            <div class="h1">
+              <p class="h01">Jenny Wilson</p>
+            </div>
+            <div class="h2">
+              <p class="h02">CTO, Infosys</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- final page -->
+    <div class="whole">
+      <!-- part1 -->
+
+      <div class="part1">
+        <div class="topic1">
+          <h4>CONTACT US</h4>
+          <h2>
+            Reach Out To Us With<br />
+            <span style="color: #576ce9">Your Idea </span><br />
+            Just In Few Steps<br />
+          </h2>
+        </div>
+
+        <div class="address">
+          <div class="add">
+            <div class="ad">
+              <img src="./images/mailmail.png" />
+            </div>
+            <div class="ad1">
+              <p>Info@kodaai.com</p>
+            </div>
+          </div>
+
+          <!-- ---------- -->
+          <div class="add">
+            <div class="ad">
+              <img src="./images/phonephn.png" />
+            </div>
+            <div class="ad1">
+              <p>626 500 0008</p>
+            </div>
+          </div>
+
+          <!-- ------------- -->
+          <div class="add">
+            <div class="ad">
+              <img src="./images/map-pinmap.png" />
+            </div>
+            <div class="ad1">
+              <p>
+                Unit # A1, <br />1st Floor, Plot no 645 ,<br />
+                Spaces & More Business Park,<br />
+                Road No 36 ,<br />
+                Hyderabad-TG
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- part2 -->
+      <div class="part2">
+        <div class="topic2">
+          <p>Get In Touch</p>
+        </div>
+        <div class="tc1">
+          <div class="tc01">
+            <p>Your name</p>
+            <input
+              text="type"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              style="width: 100%; height: 30px"
+            />
+          </div>
+
+          <div class="tc01">
+            <p>Designation & Organization</p>
+            <input
+              text="type"
+              id="designation"
+              name="designation"
+              placeholder="Enter your design and org"
+              style="width: 100%; height: 30px"
+            />
+          </div>
+        </div>
+        <!-- ----------------- -->
+        <div class="tc2">
+          <div class="tc01">
+            <p>Email address</p>
+            <input
+              text="type"
+              id="email"
+              name="email"
+              placeholder="Enter your email address"
+              style="width: 100%; height: 30px"
+            />
+          </div>
+
+          <div class="tc02">
+            <p>Contact number</p>
+            <input
+              text="type"
+              id="number"
+              name="number"
+              placeholder="Enter your contact number"
+              style="width: 100%; height: 30px"
+            />
+          </div>
+        </div>
+        <!-- ------------- -->
+        <div class="tc3">
+          <div class="tc01">
+            <p>Message</p>
+            <input
+              text="type"
+              id="msg"
+              name="msg"
+              placeholder="Enter your message"
+              style="width: 100%; height: 60px"
+            />
+          </div>
+        </div>
+        <!-- button -->
+        <div class="btnn02">
+          <div class="btn02">
+            <p>Send Message</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- last page -->
+    <div class="logo1">
+      <img src="Group 2 10lg.png" />
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="f1">
+        <h4>Quick Links</h4>
+        <a href="about.html">About Us</a>
+        <a href="home.html">Contact Us</a>
+        <a href="services.html">Services</a>
+        <a href="products.html">Alliances</a>
+        <a href="careers.html">Careers</a>
+      </div>
+
+      <div class="f2">
+        <h4>Stay tuned</h4>
+        <p>
+          Follow us on our social media<br />
+          handles to stay connected<br />
+          with us.
+        </p>
+        <div class="sm">
+          <div class="sm1">
+            <img src="Vectorfb.svg" />
+          </div>
+          <div class="sm1">
+            <img src="twitter.svg" />
+          </div>
+          <div class="sm1">
+            <img src="in.svg" />
+          </div>
+        </div>
+      </div>
+
+      <div class="f3">
+        <h4>Email Updates</h4>
+        <p>
+          Be the first one to hear about our news, updates<br />
+          announcements and special offers. Subscribe to our <br />
+          weekly newsletter.
+        </p>
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="Enter your email address"
+          style="width: 100%; height: 30px; border: none"
+        />
+        <div class="btnn1">
+          <div class="btn1">
+            <p>Subscribe</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- copyrights -->
+    <div class="copyrights">
+      <p>
+        © 2020 KODOAI. All Rights Reserved | Designed by <b>ZEVO Corporation</b>
+      </p>
+    </div>
+  </body>
+</html>

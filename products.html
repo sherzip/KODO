@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRODUCTS</title>
+    <link rel="stylesheet" href="products.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+    body {
+      font-family: "Poppins", sans-serif;
+      font-size: 14px;
+    }
+  </style>
+  <body style="background-color: rgb(223, 222, 222)">
+    <!-- 1st page -->
+    <section class="herobg">
+      <header>
+        <div class="navbar">
+          <div class="logo">
+            <img src="Group 3 1.svg" />
+          </div>
+          <ul class="links">
+            <li><a href="home.html">Home</a></li>
+            <li>
+              <a href="products.html">Products</a>
+            </li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="services.html">Services</a></li>
+          </ul>
+          <div class="togglebtn">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+        <!-- dropdown -->
+        <div class="dropdown">
+          <li><a href="home.html">Home</a></li>
+          <li>
+            <a href="products.html">Products</a>
+          </li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="services.html">Services</a></li>
+        </div>
+      </header>
+      <script>
+        const togglebtn = document.querySelector(".togglebtn");
+        const togglebtnicon = document.querySelector(".togglebtn i");
+        const dropdown = document.querySelector(".dropdown ");
+
+        togglebtn.onclick = function () {
+          dropdown.classList.toggle("open");
+        };
+      </script>
+
+      <!-- content -->
+      <div class="maincontent">
+        <div class="content">
+          <h1>Driving Data-Led Engineering<br />Transformation</h1>
+        </div>
+        <div class="content1">
+          <p class="par">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis<br />
+            pellentesque pulvinar hendrerit ut mattis integer ipsum.Libero
+            integer<br />
+            pellentesque ipsum turpis vel aenean. Egestas massa, vel fames nec
+            odio nisl<br />
+            sollicitudin sem. Augue in cras non ultricies amet donec eu.
+          </p>
+        </div>
+
+        <!-- button -->
+        <div class="btnn">
+          <div class="btn">
+            <p>Talk To Us</p>
+          </div>
+          <div class="bt">
+            <p>Learn More</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cards -->
+    <div class="cards">
+      <!-- cards1 -->
+      <div class="card">
+        <!-- one -->
+        <div class="c1">
+          <div>
+            <img src="./resources/image-removebg-preview (47) 1l1.png" />
+          </div>
+          <div>
+            <p class="heading">ISO Certified</p>
+            <p class="para">
+              we comply ISO<br />
+              Standards.
+            </p>
+          </div>
+        </div>
+        <!-- two -->
+        <div class="c1">
+          <div>
+            <img src="./resources/image-removebg-preview (47) 1l2.png" />
+          </div>
+          <div>
+            <p class="heading">
+              Quality Management System <br />
+              Certified
+            </p>
+            <p class="para">HYM International Certifications Pvt. Ltd.</p>
+          </div>
+        </div>
+
+        <!-- three -->
+        <div class="c1">
+          <div>
+            <img src="./resources/image-removebg-preview (47) 1l3.png" />
+          </div>
+          <div>
+            <p class="heading">
+              Information Security<br />
+              Management System Certified
+            </p>
+            <p class="para">HYM International Certifications Pvt. Ltd.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
